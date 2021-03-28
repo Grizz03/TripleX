@@ -99,10 +99,11 @@ int main()
                                                                                                             
 
             )" << std::endl;
+            return 0;
         }
         else if (!bLevelComplete)
         {
-            break;
+            return 0;
         }
     }
 
