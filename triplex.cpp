@@ -100,6 +100,10 @@ int main()
 
             )" << std::endl;
         }
+        else if (!bLevelComplete)
+        {
+            break;
+        }
     }
 
     return 0;
